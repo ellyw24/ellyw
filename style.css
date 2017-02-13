@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px; 
+  outline: none;
+  border: 0px;
+}
+
+p {margin:12px;}
+
+#container {width:800px; margin:auto;}
+
+#header {background-color:black;}
+
+#masthead h1 {
+	font-size: 70px; color:white; background-color:black; text-align:center; padding-top:20px;padding-bottom:20px;
+}
+
+#topimage { background-image:url(wave.jpg); width:800px; height:50px}
+
+#navbar {background-color:black; color:white; text-align:center; padding-top:10px;padding-bottom:30px; width:400px;margin:auto;}
+
+#navbar a {text-decoration:none; display: block; width: 100px; color:white; }
+#navbar ul li {float:left; list-style-type: none;}
+
+#content {padding-top:30px; width:600px; margin:auto;}
+	
